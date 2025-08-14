@@ -14,7 +14,7 @@ const appOrigin = authConfig.appOrigin || `http://localhost:${appPort}`;
 if (
   !authConfig.domain ||
   !authConfig.audience ||
-  authConfig.audience === "{yourApiIdentifier}"
+  authConfig.audience === "https://api.movieTime.dev"
 ) {
   console.log(
     "Exiting: Please make sure that auth_config.json is in place and populated with valid domain and audience values"
